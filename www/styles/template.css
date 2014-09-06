@@ -1,0 +1,202 @@
+@font-face {
+  font-family: "JF Flat";
+  src: url("../font/JF-Flat-regular.eot");
+  src: url("../font/JF-Flat-regular.eot?#iefix") format("embedded-opentype"), url("../font/JF-Flat-regular.svg#JF Flat Regular") format("svg"), url("../font/JF-Flat-regular.woff") format("woff"), url("../font/JF-Flat-regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Segoui-light";
+  src: url("../font/segoeuil.ttf") format("truetype");
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Segoui-Sbold";
+  src: url("../font/seguisb.ttf") format("truetype");
+  font-style: normal;
+}
+
+/* line 26, ../sass/template.scss */
+body {
+  background-image: url("../images/bg.png");
+  background-color: #2e1f3e;
+}
+
+/* line 31, ../sass/template.scss */
+header {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background-color: #e7c7ca;
+  border-bottom: 3px solid #605172;
+  height: 80px;
+  width: 100%;
+  line-height: 80px;
+}
+
+/* line 40, ../sass/template.scss */
+.logo {
+  background-image: url("../images/logo_header.png");
+  color: transparent;
+  width: 60px;
+  height: 64px;
+  position: absolute;
+  top: 7px;
+  left: 7px;
+}
+
+/* line 49, ../sass/template.scss */
+.slug {
+  position: absolute;
+  top: 0px;
+  left: 75px;
+  font-family: "Segoui-light";
+  font-size: 25pt;
+  color: #605172;
+}
+
+/* line 56, ../sass/template.scss */
+.slug-sb {
+  font-family: "Segoui-Sbold";
+}
+
+/* line 60, ../sass/template.scss */
+.prev {
+  position: absolute;
+  top: 22px;
+  right: 20px;
+  width: 36px;
+  height: 36px;
+  background-image: url("../images/prev.png");
+}
+
+/* line 66, ../sass/template.scss */
+.view {
+  color: transparent;
+}
+
+/* line 69, ../sass/template.scss */
+.panel {
+  position: absolute;
+  top: 84px;
+  bottom: 66px;
+  left: 0px;
+  width: 100%;
+  color: #FFFFFF;
+  font-family: "JF Flat";
+  text-align: center;
+  overflow-x: hidden;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+  -webkit-transition-duration: 0.5s;
+  -moz-transition-duration: 0.5s;
+  -o-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+}
+
+/* line 82, ../sass/template.scss */
+.topPadding {
+  padding-top: 70px;
+}
+
+/* line 86, ../sass/template.scss */
+.bgColor {
+  background-color: #DEDEDE;
+}
+
+/* line 90, ../sass/template.scss */
+.left {
+  -webkit-transform: translate3D(-100%, 0, 0);
+  -moz-transform: translate3D(-100%, 0, 0);
+  -ms-transform: translate3D(-100%, 0, 0);
+  -o-transform: translate3D(-100%, 0, 0);
+  transform: translate3D(-100%, 0, 0);
+}
+
+/* line 94, ../sass/template.scss */
+.center {
+  -webkit-transform: translate3D(0%, 0, 0);
+  -moz-transform: translate3D(0%, 0, 0);
+  -ms-transform: translate3D(0%, 0, 0);
+  -o-transform: translate3D(0%, 0, 0);
+  transform: translate3D(0%, 0, 0);
+}
+
+/* line 98, ../sass/template.scss */
+.right {
+  -webkit-transform: translate3D(100%, 0, 0);
+  -moz-transform: translate3D(100%, 0, 0);
+  -ms-transform: translate3D(100%, 0, 0);
+  -o-transform: translate3D(100%, 0, 0);
+  transform: translate3D(100%, 0, 0);
+}
+
+/* line 102, ../sass/template.scss */
+.panel .img_btn {
+  margin: auto auto 10px auto;
+  opacity: 0.8;
+}
+
+/* line 107, ../sass/template.scss */
+.panel .img_btn:hover {
+  opacity: 1;
+}
+
+/* line 111, ../sass/template.scss */
+nav {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  background: rgba(149, 138, 138, 0.7);
+  border-top: 2px solid #3e3e53;
+  width: 100%;
+  height: 64px;
+}
+
+/* line 118, ../sass/template.scss */
+.nv_btn {
+  color: #FFF;
+  font-family: "JF Flat";
+  text-align: center;
+  width: 235px;
+  height: 64px;
+  display: block;
+  text-decoration: none;
+  position: absolute;
+  font-size: 25pt;
+}
+
+/* line 128, ../sass/template.scss */
+.nv_btn:hover {
+  color: #2d2b41;
+}
+
+/* line 129, ../sass/template.scss */
+.nv_btn_home {
+  left: 0px;
+  bottom: 0px;
+}
+
+/* line 133, ../sass/template.scss */
+.nv_btn_about {
+  left: 237px;
+  bottom: 0px;
+}
+
+/* line 137, ../sass/template.scss */
+.nv-sep {
+  width: 1px;
+  height: 53px;
+  position: absolute;
+  top: 6px;
+  left: 235px;
+  background-color: #CCC;
+}
+
+/* line 145, ../sass/template.scss */
+.activated {
+  color: #2d2b41;
+}
